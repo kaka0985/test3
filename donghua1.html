@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background:dodgerblue;
+        }
+        .fash{
+            width: 2000px;
+            height: 200px;
+            overflow: hidden;
+        }
+        .fash img {
+            height: 2000px;
+            animation: move 10s steps(900) 0s infinite both ;
+        }
+        @keyframes move {
+            from {
+                transform: translateX(100px);
+            }
+            to {
+                transform: translateX(1000px);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="fash">
+    <img src="1.png">
+</div>
+</body>
+</html>
